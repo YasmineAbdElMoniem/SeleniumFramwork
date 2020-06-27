@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="GoCardi Test Suite">
+	<paramter name="browser" value="chrome"></paramter>
+	<test name="User Registeration">
+		<classes>
+			<class name="Tests.RegisterationTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[The GoCardi Website is Opened Successfully]]>
+    </line>
+    <line>
+      <![CDATA[The Language is Changed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[The Regiseration Page is Opened Successfully]]>
+    </line>
+    <line>
+      <![CDATA[The User is Registered Successfully Into The GoCardi]]>
+    </line>
+    <line>
+      <![CDATA[The User is Forgetten the last name value and validation mesage appears]]>
+    </line>
+  </reporter-output>
+  <suite name="GoCardi Test Suite" duration-ms="11604" started-at="2020-06-27T23:23:49 EET" finished-at="2020-06-27T23:24:01 EET">
+    <groups>
+    </groups>
+    <test name="User Registeration" duration-ms="11604" started-at="2020-06-27T23:23:49 EET" finished-at="2020-06-27T23:24:01 EET">
+      <class name="Tests.RegisterationTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:Tests.RegisterationTest@62ce72ff]" name="startDriver" is-config="true" duration-ms="10773" started-at="2020-06-27T23:23:38 EET" finished-at="2020-06-27T23:23:49 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="UserCanRegisterSuccssfully()[pri:0, instance:Tests.RegisterationTest@62ce72ff]" name="UserCanRegisterSuccssfully" duration-ms="11555" started-at="2020-06-27T23:23:49 EET" finished-at="2020-06-27T23:24:01 EET">
+          <reporter-output>
+            <line>
+              <![CDATA[The GoCardi Website is Opened Successfully]]>
+            </line>
+            <line>
+              <![CDATA[The Language is Changed Successfully]]>
+            </line>
+            <line>
+              <![CDATA[The Regiseration Page is Opened Successfully]]>
+            </line>
+            <line>
+              <![CDATA[The User is Registered Successfully Into The GoCardi]]>
+            </line>
+            <line>
+              <![CDATA[The User is Forgetten the last name value and validation mesage appears]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSuccssfully -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:Tests.RegisterationTest@62ce72ff]" name="stopDriver" is-config="true" duration-ms="1130" started-at="2020-06-27T23:24:01 EET" finished-at="2020-06-27T23:24:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- Tests.RegisterationTest -->
+    </test> <!-- User Registeration -->
+  </suite> <!-- GoCardi Test Suite -->
+</testng-results>
